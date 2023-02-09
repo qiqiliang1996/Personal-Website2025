@@ -1,0 +1,132 @@
+.about__container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 10%;
+}
+
+.about__me {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  display: grid;
+  /* place-items: center; */
+  justify-content: center;
+}
+
+.about__me-image {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+}
+
+.about__me-image:hover {
+  transform: rotate(0);
+}
+
+.about__cards {
+  /* background-color: beige; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.about__card {
+  /* background: rgba(69, 85, 70, 0.25); */
+  background: rgba(173, 198, 248, 0.03);
+
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem 0rem;
+  text-align: center;
+  transition: var(--transition);
+  overflow: hidden;
+}
+.about__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: pointer;
+}
+
+.about__icon {
+  font-size: 1.4rem;
+}
+
+.about__card h5 {
+  font-size: 0.95rem;
+  color: var(--color-primary);
+}
+.about__card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
+
+.about__content p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: var(--color-light);
+}
+
+.about__intro em {
+  color: var(--color-third);
+}
+
+.about__intro {
+  margin-top: 3rem;
+}
+.about__intro a {
+  color: var(--color-light);
+  text-decoration: underline;
+}
+.about__content .btn-primary {
+  margin-top: 1.2rem;
+}
+
+/* =========== media query MEDUIM 1:04:46 =========== */
+@media screen and (max-width: 1024px) {
+  .about__container {
+    /* grid-template-columns: 1fr; */
+    grid-template-columns: 1fr;
+    gap: 0;
+    /* background-color: pink; */
+  }
+
+  .about__me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+
+  .about__contetnt p {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+/* =========== media query SMALL   =========== */
+@media screen and (max-width: 600px) {
+  .about__me {
+    width: 80%;
+    margin: 0 auto 3rem;
+    gap: 0;
+  }
+
+  .about__cards {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .about__content {
+    text-align: center;
+  }
+
+  .about__content p {
+    margin: 1.5rem 0;
+    font-size: 1rem;
+    text-align: left;
+  }
+}

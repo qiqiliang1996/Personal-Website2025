@@ -1,0 +1,79 @@
+.contact__container {
+  width: 58%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 8rem;
+}
+
+.contact__options {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact__option {
+  background: rgba(173, 198, 248, 0.03);
+  padding: 1.2rem 0rem;
+
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+
+.contact__option:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+}
+
+.contact__option-icon {
+  font-size: 1.5rem;
+  /* margin-bottom: 0.5rem; */
+}
+
+.contact__option a {
+  margin-top: 0rem;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+form {
+  /* background-color: pink; */
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 1px solid var(--color-primary);
+  resize: none;
+  color: var(--color-white);
+  font-size: 1.3rem;
+}
+
+button {
+  margin-top: 1rem;
+}
+
+/* =========== media query MEDUIM  =========== */
+@media screen and (max-width: 1024px) {
+  .contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* =========== media query SMALL   =========== */
+@media screen and (max-width: 600px) {
+  .contact__container {
+    width: var(--container-width-sm);
+  }
+}
