@@ -1,4 +1,3 @@
-import React from 'react';
 import './testimonials.css';
 import TestimonialIMG1 from '../../assets/kiky.jpg';
 import TestimonialIMG2 from '../../assets/tom.jpg';
@@ -18,7 +17,7 @@ const testimonialData = [
     name: 'Kiky Chen -- Easy Hundred Inc',
     link: 'https://www.linkedin.com/in/kiky-chen-6356bb1b6/',
     review:
-      'Congratulations on finishing this challenging project on record time, Qiqi. Given the project tight deadline and additional complexities, its truly amazing to see how you collaborated with different teams to fast-track your part at EZ100 LLC. It has been a pleasure ot all of us. Farewell, and wish you all the success in your new job! ',
+      'Congratulations on finishing this challenging project on record time, Qiqi. Given the project tight deadline and additional complexities, its truly amazing to see how you collaborated with different teams to fast-track your part at EZ100 Inc. It has been a pleasure ot all of us. Farewell, and wish you all the success in your new job! ',
   },
   {
     avatar: TestimonialIMG2,

@@ -23,22 +23,22 @@ const experienceDataFrontend = [
   },
   {
     icon: checkIcon,
+    title: 'Bootstrap',
+    smallText: experiencedText,
+  },
+  {
+    icon: checkIcon,
+    title: 'MUI',
+    smallText: experiencedText,
+  },
+  {
+    icon: checkIcon,
     title: 'HTML',
     smallText: experiencedText,
   },
   {
     icon: checkIcon,
     title: 'CSS',
-    smallText: experiencedText,
-  },
-  {
-    icon: checkIcon,
-    title: 'Bootstrap',
-    smallText: experiencedText,
-  },
-  {
-    icon: checkIcon,
-    title: 'HTML',
     smallText: experiencedText,
   },
 ];
@@ -51,7 +51,7 @@ const experienceDataBackend = [
   },
   {
     icon: checkIcon,
-    title: 'Restful API',
+    title: 'REST API',
     smallText: experiencedText,
   },
   {

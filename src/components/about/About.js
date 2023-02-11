@@ -77,7 +77,7 @@ export default function About() {
             </p>
 
             <p>
-              I previously completed a 6-month internship at Class A IT where I
+              I previously completed a 5-month internship at Class A IT where I
               learned how to design, implement and deployed frontend
               application.
             </p>

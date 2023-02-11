@@ -9,23 +9,23 @@ const portfolioData = [
   {
     id: 1,
     image: IMG1,
-    title: '[React Native] EZ100 Online Shopping App',
+    title: '[React Native - Frontend] EZ100 Online Shopping Mobile App',
     github: 'https://github.com/qiqiliang1996',
     demo: 'https://apps.apple.com/us/app/ez100-restaurant-supplies/id1513291811',
   },
   {
     id: 2,
     image: IMG2,
-    title: '[React Native] QiqiApp Social Contact App',
-    github: 'https://github.com/qiqiliang1996',
+    title: '[React Native - Fullstack] QiqiApp Share & Contact Mobile App',
+    github: 'https://github.com/qiqiliang1996/QiqiApp-Expo-ReactNative',
     demo: 'https://play.google.com/store/apps/details?id=com.qiqiappfinal',
   },
   {
     id: 3,
     image: IMG3,
-    title: '[React JS] Movies Theater Searching Website',
-    github: 'https://github.com/qiqiliang1996',
-    demo: 'https://github.com/qiqiliang1996',
+    title: '[React.js - Fullstack] Social Media Website',
+    github: 'https://github.com/qiqiliang1996/2023-FullStack-Frontend',
+    demo: 'https://qiqi-liang-frontend2.herokuapp.com/',
   },
 ];
 

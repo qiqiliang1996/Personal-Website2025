@@ -31,13 +31,13 @@ export default function Footer() {
       </ul>
 
       <div className='footer__socials'>
-        <a href='https://www.facebook.com/'>
+        <a href='https://www.facebook.com/' target='_blank'>
           <FaFacebookF />
         </a>
-        <a href='https://www.instagram.com/'>
+        <a href='https://www.instagram.com/' target='_blank'>
           <FiInstagram />
         </a>
-        <a href='https://twitter.com/'>
+        <a href='https://twitter.com/' target='_blank'>
           <IoLogoTwitter />
         </a>
       </div>
