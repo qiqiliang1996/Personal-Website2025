@@ -39,7 +39,7 @@ export default function About() {
         <div className='about__content'>
           <div className='about__cards'>
             {aboutData.map(({ section, icon, title, smallText }) => (
-              <a href={section}>
+              <a href={section} key={section}>
                 <article className='about__card'>
                   {icon}
                   <h5>{title}</h5>

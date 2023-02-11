@@ -86,7 +86,7 @@ export default function Experience() {
           <h3>Frontend Development</h3>
           <div className='experience__content'>
             {experienceDataFrontend.map(({ icon, title, smallText }) => (
-              <article className='experience__details'>
+              <article className='experience__details' key={title}>
                 {icon}
                 <div>
                   <h4>{title}</h4>
@@ -101,7 +101,7 @@ export default function Experience() {
           <h3>Backend Development</h3>
           <div className='experience__content'>
             {experienceDataBackend.map(({ icon, title, smallText }) => (
-              <article className='experience__details'>
+              <article className='experience__details' key={title}>
                 {icon}
                 <div>
                   <h4>{title}</h4>

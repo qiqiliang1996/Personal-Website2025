@@ -18,6 +18,7 @@ export default function Nav() {
     <nav>
       {navData.map(({ section, icon }) => (
         <a
+          key={section}
           href={section}
           onClick={() => {
             setActiveNav(section);
