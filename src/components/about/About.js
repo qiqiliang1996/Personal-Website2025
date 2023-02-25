@@ -51,10 +51,8 @@ export default function About() {
 
           <div className='about__intro'>
             <p>
-              My name is Qiqi Liang, I have 1+ years of experience as a software
-              engineer. Currently, I am working as a
-              <em> React Native Developer</em> in Easy Hundred,Inc for the last
-              year.
+              My name is Qiqi Liang, I am a software engineer currently working
+              as a<em> React Native Frontend Developer</em> in Easy Hundred,Inc.
             </p>
 
             <p>
@@ -77,8 +75,8 @@ export default function About() {
             </p>
 
             <p>
-              I previously completed a 5-month internship at Class A IT where I
-              learned how to design, implement and deployed frontend
+              I previously completed fullstack internship at Class A IT where I
+              learned how to design, implement and deployed fullstack
               application.
             </p>
 

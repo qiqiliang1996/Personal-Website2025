@@ -7,7 +7,6 @@ export default function Header() {
   return (
     <header>
       <div className='container header__container'>
-        <h5>Hello, I am</h5>
         <h2>Qiqi Liang</h2>
         <h5 className='text-light'>Frontend Developer</h5>
         <CTA />
