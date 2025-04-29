@@ -8,7 +8,7 @@ export default function Header() {
     <header>
       <div className='container header__container'>
         <h2>Qiqi Liang</h2>
-        <h5 className='text-light'>Frontend Developer</h5>
+        <h5 className='text-light'>React Frontend Developer</h5>
         <CTA />
         <HeaderSocials />
 

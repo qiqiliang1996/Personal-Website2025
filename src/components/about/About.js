@@ -9,7 +9,7 @@ const aboutData = [
     section: '#experiences',
     icon: <FaAward className='about__icon' />,
     title: 'Experience',
-    smallText: '1+ Years Experience',
+    smallText: '3 Years Development Experience',
   },
   {
     section: '#testimonials',
@@ -52,38 +52,21 @@ export default function About() {
           <div className='about__intro'>
             <p>
               My name is Qiqi Liang, I am a software engineer currently working
-              as a<em> React Native Frontend Developer</em> in Easy Hundred,Inc.
+              as a <em> React Frontend Developer </em> in Acuity.Inc.
+            </p>
+            <p>
+              My current job primary responsibility is to develop and enhance
+              the webApps using <em> React and GraphQL </em>
+              for The Department of Homeland Security.
             </p>
 
             <p>
-              My primary responsibility is to develop and enhance the app, EZ100
-              on{' '}
-              <a
-                href='https://apps.apple.com/us/app/ez100-restaurant-supplies/id1513291811'
-                target='_blank'
-              >
-                IOS
+              I previously deployed an shopping webApp{' '}
+              <a href='https://www.ez100.com/' target='_blank'>
+                EZ100.com
               </a>{' '}
-              and{' '}
-              <a
-                href='https://play.google.com/store/apps/details?id=com.ez100shop'
-                target='_blank'
-              >
-                Android
-              </a>{' '}
-              using <em>Ract Native and Redux</em>.
-            </p>
-
-            <p>
-              I previously completed fullstack internship at Class A IT where I
-              learned how to design, implement and deployed fullstack
-              application.
-            </p>
-
-            <p>
-              As my current work experience and skills match your job
-              requirements, I feel that I am a suitable candidate for this
-              position.
+              using <em>Ract and Redux</em> for my former company, Easy
+              Hundred.Inc.
             </p>
           </div>
 

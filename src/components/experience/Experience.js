@@ -13,6 +13,11 @@ const experienceDataFrontend = [
   },
   {
     icon: checkIcon,
+    title: 'TypeScript',
+    smallText: experiencedText,
+  },
+  {
+    icon: checkIcon,
     title: 'React',
     smallText: experiencedText,
   },
@@ -21,6 +26,7 @@ const experienceDataFrontend = [
     title: 'Redux',
     smallText: experiencedText,
   },
+
   {
     icon: checkIcon,
     title: 'Bootstrap',
@@ -103,7 +109,7 @@ export default function Experience() {
             {experienceDataBackend.map(({ icon, title, smallText }) => (
               <article className='experience__details' key={title}>
                 {icon}
-                <div>
+                <div style={{}}>
                   <h4>{title}</h4>
                   <small className='text-light'>{smallText}</small>
                 </div>

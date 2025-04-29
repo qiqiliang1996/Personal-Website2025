@@ -4,28 +4,11 @@ import { MdOutlineEmail } from 'react-icons/md';
 import { BsWhatsapp } from 'react-icons/bs';
 import { Formik } from 'formik';
 import { useRef } from 'react';
-import emailjs from 'emailjs-com';
 
 export default function Contact() {
   const form = useRef();
-
   const sendEmail = () => {
-    emailjs
-      .sendForm(
-        'service_l18n06m',
-        'template_47cbhz8',
-        form.current,
-        'LTPl2bC9lLV-Wox5B'
-      )
-      .then(
-        (result) => {
-          alert('Message Sent!');
-          console.log('good', result.text);
-        },
-        (error) => {
-          console.log('bad', error.text);
-        }
-      );
+    alert('Message Sent!');
   };
 
   return (
@@ -57,8 +40,15 @@ export default function Contact() {
           initialValues={{ name: '', email: '', message: '' }}
           validate={(values) => {
             const errors = {};
+
+            if (!values.message) {
+              errors.message = 'Message is Required';
+            }
+            if (!values.name) {
+              errors.name = 'Name is Required';
+            }
             if (!values.email) {
-              errors.email = 'Required';
+              errors.email = 'Email is Required';
             } else if (
               !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
             ) {
