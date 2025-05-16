@@ -1,6 +1,6 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/ez100.jpg';
+import IMG1 from '../../assets/movies.jpg';
 import IMG2 from '../../assets/portfolio2.jpg';
 import IMG3 from '../../assets/dashboard.jpg';
 
@@ -8,23 +8,23 @@ const portfolioData = [
   {
     id: 1,
     image: IMG1,
-    title: '[React Native - Frontend] EZ100 Online Shopping Mobile App',
+    title: '[Fullstack - Java, SpringBoot, React] Qiqi Movie Theater',
     github: 'https://github.com/qiqiliang1996',
-    demo: 'https://play.google.com/store/apps/details?id=com.ez100shop',
+    demo: 'https://movies-frontend2025.vercel.app/',
   },
   {
     id: 2,
     image: IMG2,
-    title: '[React.js - Frontend] Game-Hub Website',
-    github: 'https://github.com/qiqiliang1996/QiqiGameHub2025',
-    demo: 'https://game-nuw2nifx3-kikis-projects-c50f8a1b.vercel.app/',
+    title: '[Frontend - React] Game-Hub Website',
+    github: 'https://github.com/qiqiliang1996/',
+    demo: 'https://game-hub-kikis-projects-c50f8a1b.vercel.app//',
   },
   {
     id: 3,
     image: IMG3,
-    title: '[React.js - Frontend] Qiqi User Dashboard',
-    github: 'https://github.com/qiqiliang1996/AdminDashboard',
-    demo: 'https://react-admin-dashboard-1iv6zyou9-kikis-projects-c50f8a1b.vercel.app/',
+    title: '[Frontend - React] Qiqi User Dashboard',
+    github: 'https://github.com/qiqiliang1996/',
+    demo: 'https://react-admin-dashboard-alpha-eight.vercel.app/',
   },
 ];
 
@@ -32,7 +32,7 @@ export default function Portfolio() {
   return (
     <section id='portfolio'>
       <h5>My Recent Works</h5>
-      <h2>Projects</h2>
+      <h2>Projects (All Deployed)</h2>
       <div className='container portfolio__container'>
         {portfolioData.map((item) => (
           <article className='portfolio__items' key={item.id}>

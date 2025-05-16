@@ -52,7 +52,12 @@ const experienceDataFrontend = [
 const experienceDataBackend = [
   {
     icon: checkIcon,
-    title: 'Node.js',
+    title: 'Java',
+    smallText: experiencedText,
+  },
+  {
+    icon: checkIcon,
+    title: 'Spring Boot',
     smallText: experiencedText,
   },
   {
@@ -60,6 +65,17 @@ const experienceDataBackend = [
     title: 'REST API',
     smallText: experiencedText,
   },
+  {
+    icon: checkIcon,
+    title: 'SQL',
+    smallText: experiencedText,
+  },
+  {
+    icon: checkIcon,
+    title: 'Node.js',
+    smallText: experiencedText,
+  },
+
   {
     icon: checkIcon,
     title: 'Express.js',
@@ -70,11 +86,7 @@ const experienceDataBackend = [
     title: 'MongoDB',
     smallText: experiencedText,
   },
-  {
-    icon: checkIcon,
-    title: 'Firebase',
-    smallText: experiencedText,
-  },
+
   {
     icon: checkIcon,
     title: 'GraphQL',

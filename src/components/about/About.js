@@ -51,12 +51,12 @@ export default function About() {
 
           <div className='about__intro'>
             <p>
-              My name is Qiqi Liang, I am a software engineer currently working
-              as a <em> React Frontend Developer </em> in Acuity.Inc.
+              My name is Qiqi Liang, I am a Software Engineer currently working
+              as a <em> React Frontend Developer </em> at Acuity.Inc.
             </p>
             <p>
-              My current job primary responsibility is to develop and enhance
-              the webApps using <em> React and GraphQL </em>
+              My primary responsibility in my current role is to develop and
+              enhance web applications using <em> React and GraphQL </em>
               for The Department of Homeland Security.
             </p>
 
@@ -66,7 +66,7 @@ export default function About() {
                 EZ100.com
               </a>{' '}
               using <em>Ract and Redux</em> for my former company, Easy
-              Hundred.Inc.
+              Hundred,Inc.
             </p>
           </div>
 
